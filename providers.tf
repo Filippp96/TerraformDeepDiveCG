@@ -5,6 +5,13 @@ terraform {
       version = "=4.27.0"
     }
   }
+
+  cloud {
+    organization = "deepdive_cg_fk"
+    workspaces {
+      name = "dev"
+    }
+  }
 }
 
 provider "azurerm" {
