@@ -6,12 +6,12 @@ terraform {
     }
   }
 
-  cloud {
-    organization = "deepdive_cg_fk"
-    workspaces {
-      name = "dev"
-    }
-  }
+  cloud {   
+    organization = "deepdive_cg_fk" 
+    workspaces { 
+      name = "TerraformCI" 
+    } 
+  } 
 }
 
 provider "azurerm" {
