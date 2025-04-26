@@ -25,6 +25,3 @@ resource "azurerm_subnet" "subnet2" {
   virtual_network_name = azurerm_virtual_network.main.name
   address_prefixes     = ["10.42.11.0/24"]
 }
-
-
-
