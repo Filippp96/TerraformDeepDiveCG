@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "main" {
-  name     = "RG1"
+  name     = "RG-main"
   location = "westeurope"
   tags     = {}
 }
