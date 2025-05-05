@@ -9,7 +9,7 @@ terraform {
   cloud {
     organization = "deepdive_cg_fk"
     workspaces {
-      name = "TerraformCI"
+      name = "TerraformDeepDiveCG-Main"
     }
   }
 }
